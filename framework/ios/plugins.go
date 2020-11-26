@@ -7,8 +7,8 @@
 package dnscryptproxy
 
 import (
-	dnscrypt "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy"
-	plugins "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy/ios/plugins"
+	dnscrypt "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy"
+	plugins "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy/ios/plugins"
 )
 
 func initPluginsGlobals(pluginsGlobals *dnscrypt.PluginsGlobals, proxy *dnscrypt.Proxy) error {
