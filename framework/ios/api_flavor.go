@@ -9,7 +9,7 @@ package dnscryptproxy
 import (
 	"github.com/jedisct1/dlog"
 
-	dnscrypt "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy"
+	dnscrypt "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy"
 )
 
 func PrefetchSourceURLCloak(timeout_int int, useIPv4 bool, useIPv6 bool, fallbackResolver string, ignoreSystemDNS bool, url string, cacheFile string, minisignKey string) error {
