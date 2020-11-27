@@ -18,7 +18,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	dnscrypt "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy"
+	dnscrypt "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy"
 	stamps "github.com/jedisct1/go-dnsstamps"
 )
 
