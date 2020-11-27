@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	dnscrypt "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy"
+	dnscrypt "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy"
 
 	"github.com/jedisct1/dlog"
 )
