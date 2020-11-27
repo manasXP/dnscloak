@@ -9,7 +9,7 @@ package plugins
 import (
 	"github.com/miekg/dns"
 
-	dnscrypt "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy"
+	dnscrypt "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy"
 )
 
 type PluginFixServfail struct {
