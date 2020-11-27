@@ -13,8 +13,8 @@ import (
 
 	"github.com/jedisct1/dlog"
 
-	dnscrypt "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy"
-	mradix "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy/ios/mradix"
+	dnscrypt "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy"
+	mradix "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy/ios/mradix"
 )
 
 type PatternMatcherMmap struct {
