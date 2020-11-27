@@ -56,7 +56,7 @@ REPOROOT=$(pwd)
 export GOPATH=$REPOROOT/.build
 export PATH=$GOPATH/bin:$PATH
 
-PKGPATH=$GOPATH/src/github.com/jedisct1/dnscrypt-proxy
+PKGPATH=$GOPATH/src/github.com/manasXP/dnscrypt-proxy
 
 export GOFLAGS="-ldflags=-s -ldflags=-w"
 
@@ -87,7 +87,7 @@ go get golang.org/x/mobile/cmd/gomobile
 gomobile init
 
 # fetch vanilla dnscrypt-proxy
-go get -d 'github.com/jedisct1/dnscrypt-proxy'
+go get -d 'github.com/manasXP/dnscrypt-proxy'
 
 # add some mobile-specific flavor
 cd $PKGPATH
@@ -133,10 +133,10 @@ const (
 EOS
 
 # check & update deps if required
-go get 'github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy/ios'
+go get 'github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy/ios'
 
 # make the binary
-gomobile bind -target ios $GOMOBILE_FLAGS 'github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy/ios'
+gomobile bind -target ios $GOMOBILE_FLAGS 'github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy/ios'
 
 # clean up build artifacts
 rm -fr $GOPATH
