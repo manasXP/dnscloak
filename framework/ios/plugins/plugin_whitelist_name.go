@@ -21,7 +21,7 @@ import (
 	"github.com/miekg/dns"
 	lumberjack "gopkg.in/natefinch/lumberjack.v2"
 
-	dnscrypt "github.com/jedisct1/dnscrypt-proxy/dnscrypt-proxy"
+	dnscrypt "github.com/manasXP/dnscrypt-proxy/dnscrypt-proxy"
 )
 
 type PluginWhitelistName struct {
